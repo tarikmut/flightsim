@@ -6,7 +6,7 @@ import csv
 from matplotlib.gridspec import GridSpec
 
 # Start JSBSim simulator
-sim = jsbsim.FGFDMExec(root_dir='C:\\Users\\tarik\\AppData\\Local\\JSBSim')
+sim = jsbsim.FGFDMExec(root_dir='your_JSBSim_path')
 # Load aircraft model
 sim.load_model('c172p')
 
